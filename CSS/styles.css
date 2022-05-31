@@ -29,7 +29,7 @@ h3 {
 }
 
 .profile {
-    width: 50%;
+    width: 60%;
     line-height: 2;
     margin: 50px auto 50px auto;
 }
@@ -37,18 +37,21 @@ h3 {
 .top-container {
     padding-top: 150px;
     background-color: #e4f9f5;
-    z-index: -1;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 15%;
     top: 100px;
+}
+
+.mountain {
+    max-width: 100%;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 15%;
 }
 
 .middle-container {
@@ -65,7 +68,7 @@ h3 {
 }
 
 .skill-row {
-    width: 50%;
+    width: 60%;
     margin: 50px auto 50px auto;
     text-align: left;
     line-height: 2;
@@ -100,7 +103,9 @@ hr {
     margin: 50px auto 50px auto;
 }
 
+
 .btn {
+    width: 50%;
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
     background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
